@@ -1,0 +1,11 @@
+accounts:
+  message: Welcome to tigray loans default application
+  mailDetails:
+    hostName: default-loans@tigraybank.com
+    port: 3000
+    from: default-loans@tigraybank.com
+    subject: your loans info from dev environment
+
+  activeBranches[0]: Glen Brune
+  activeBranches[1]: Herisburg
+  activeBranches[2]: Bethesda

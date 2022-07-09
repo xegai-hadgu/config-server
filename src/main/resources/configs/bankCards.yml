@@ -1,0 +1,11 @@
+accounts:
+  message: Welcome to tigray bank cards default application
+  mailDetails:
+    hostName: default-card@tigraybank.com
+    port: 6000
+    from: default-cards@tigraybank.com
+    subject: your cards info from default environment
+
+  activeBranches[0]: Baltimore
+  activeBranches[1]: Catonsvill
+  activeBranches[2]: Sliver spring

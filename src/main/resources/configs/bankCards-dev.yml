@@ -1,0 +1,11 @@
+accounts:
+  message: Welcome to tigray bank cards dev application
+  mailDetails:
+    hostName: default-card@tigraybank.com
+    port: 5000
+    from: dev-cards@tigraybank.com
+    subject: your cards info from dev environment
+
+  activeBranches[0]: Glen Brune
+  activeBranches[1]: Herisburg
+  activeBranches[2]: Bethesda

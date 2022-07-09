@@ -1,0 +1,11 @@
+accounts:
+  message: Welcome to tigray bank accounts default application
+  mailDetails:
+    hostName: default-account@tigraybank.com
+    port: 9000
+    from: default-account@tigraybank.com
+    subject: your account info from default environment
+
+  activeBranches[0]: Rama
+  activeBranches[1]: Adawa
+  activeBranches[2]: Axum

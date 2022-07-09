@@ -1,0 +1,11 @@
+accounts:
+  message: Welcome to tigray bank cards prod application
+  mailDetails:
+    hostName: dprod-card@tigraybank.com
+    port: 4000
+    from: prod-cards@tigraybank.com
+    subject: your cards info from prod environment
+
+  activeBranches[0]: Glen Brune
+  activeBranches[1]: Herisburg
+  activeBranches[2]: Bethesda

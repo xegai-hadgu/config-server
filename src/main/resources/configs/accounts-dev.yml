@@ -1,0 +1,11 @@
+accounts:
+  message: Welcome to tigray bank accounts dev application
+  mailDetails:
+    hostName: default-account-dev@tigraybank.com
+    port: 8000
+    from: dev-account@tigraybank.com
+    subject: your account info from dev environment
+
+  activeBranches[0]: Adigrat
+  activeBranches[1]: Mychew
+  activeBranches[2]: wkro

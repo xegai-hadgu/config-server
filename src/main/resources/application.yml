@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: configserver
+
+  profiles:
+    active: git # when reading from github
+#    active: native # only when reading from classpath or file system
+
+  cloud:
+    config:
+      server:
+        native:
+#          searchLocations: file:///c://configs # reads the config files from file system in config folder, file = file system
+#          searchLocations: classpath:configs # reads the config files from resources directory config folder, classpath = resources directory
+        git:
+          uri: https://github.com/xegai-hadgu/config-services.git #clone https
+          clone-on-start: true
+          default-label: main # branch
+
+
+server:
+  port: 8090
+

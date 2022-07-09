@@ -1,0 +1,11 @@
+accounts:
+  message: Welcome to tigray bank accounts prod application
+  mailDetails:
+    hostName: prod-account@tigraybank.com
+    port: 7000
+    from: prod-account@tigraybank.com
+    subject: your account info from prod environment
+
+  activeBranches[0]: Mekelle
+  activeBranches[1]: Adigrat
+  activeBranches[2]: temben

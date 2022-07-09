@@ -1,0 +1,11 @@
+accounts:
+  message: Welcome to tigray loans prod application
+  mailDetails:
+    hostName: prod-loans@tigraybank.com
+    port: 1000
+    from: prod-loans@tigraybank.com
+    subject: your loans info from prod environment
+
+  activeBranches[0]: Glen Brune
+  activeBranches[1]: Herisburg
+  activeBranches[2]: Bethesda
